@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="thinkful quiz app" content="Thinkful Quiz App Project: A Bowie or Byrne questionaire.">
+    <meta name="viewport" content="width=device-width">
+    <title>Bowie or Byrne Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header class="header" role="banner">
+      <h1>Which David (Bowie || Byrne)?</h1>
+    </header>
+
+    <main role="main">
+
+      <div class="start-page" style="display: none;" role="start page">
+        <form id="js-start-button">
+          <p>'Star Man' vs 'Pyscho Killer'</p>
+          <p>This quiz tests your knowledge of two of the worlds greastest musical performers:<br>David Bowie & David Byrne</p>
+          <p>Instructions: Read each question and choose your David</p>
+          <p><em>May the glam rock gods be with you!</em></p>
+
+          <input class="hover start-button" type="submit" value="Start Quiz">
+        </form>
+      </div>
+
+
+      <div class="question-page" style="display: none;" role="questions">
+        <form id="questions-answers">
+          <p class="question-number"></p>
+          <h2 class="question">While both Davids initially wrote most of their songs on acouostic guiutars, which David was known for playing a 12-string acoustic guitar?</h2>
+
+          <button class="hvr-float-shadow answer bowie-answer">
+            <span class="button-label">BOWIE</span>
+          </button>
+          <button class="hvr-buzz answer byrne-answer">
+            <span  button-label">BYRNE</span>
+          </button>
+        </form>
+        <div class="score">
+          <p class="current-score"></p>
+        </div>
+      </div>
+
+
+      <div class="results-page" style="display: none;" role="answer results">
+        <form id="js-continue-quiz">
+          <h2 class="result"></h2>
+          <div class="score">
+           <p class="current-score">2 of 3 Correct</p>
+          </div>
+
+          <button class="next-question" type="submit">Continue</button>
+        </form>
+      </div>
+
+
+      <div class="end-page" style="display: none;" role="final results">
+        <form id="js-restart-button">
+          <p class="final-title">FINAL SCORE:</p>
+          <p class="final-score"></p>
+          <p class="final-result-message"></p>
+
+          <button class="hover restart-quiz" type="submit">Retake Quiz</button>
+        </form>
+      </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

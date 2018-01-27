@@ -1,0 +1,131 @@
+Walter Guevara6:10 PM
+var result = GetData()
+
+if (result != null)
+
+Walter  GuevaraWalter Guevara6:17 PM
+if (value1 > value2)
+
+http://pixel-editor.com/editor
+
+saved
+
+7:38 PM
+Parker Shires left the stage 
+Walter Guevara left the stage 
+Walter Guevara left 
+9:57 PM
+Parker Shires left 
+8:59 AM
+Walter Guevara joined 
+Walter Guevara joined the stage 
+Robert Becket joined 
+Robert Becket joined the stage 
+9:06 AM
+Walter Guevara left 
+Walter Guevara joined 
+Walter Guevara joined the stage 
+Walter Guevara left 
+Walter Guevara joined 
+Walter Guevara joined the stage 
+Robert Becket joined 
+Robert Becket left 
+Robert Becket joined the stage 
+Walter  GuevaraWalter Guevara9:11 AM
+renly.co
+
+9:20 AM
+Walter Guevara left 
+Walter Guevara joined 
+Walter Guevara joined the stage 
+10:01 AM
+Robert Becket left the stage 
+Robert Becket left 
+Walter Guevara left the stage 
+Walter Guevara left 
+Walter Guevara joined 
+Walter Guevara joined the stage 
+Walter Guevara left 
+10:56 AM
+Eric Johnson joined 
+Eric Johnson joined the stage 
+Walter Guevara joined 
+Walter Guevara joined the stage 
+Eric JohnsonEric Johnson11:40 AM
+https://courses.thinkful.com/web-dev-001v1/assignment/3.3.1
+
+https://repl.it/@sloanstewart1/Thinkful-Quiz-App
+
+Walter  GuevaraWalter Guevara11:50 AM
+<div id="home"></div>
+
+<div id="quit"></div>
+
+<div id="conclusion"></div>
+
+.submit
+
+$('#quiz").hide()
+
+$('#conclusion").show()
+
+class="section"
+
+display:none
+
+class="section show"
+
+.show{display:block;}
+
+Walter  GuevaraWalter Guevara11:55 AM
+function start()
+
+<button onclick="start()"
+
+$("#home").hide()
+
+$("#quiz").show();
+
+function restart()
+
+Walter  GuevaraWalter Guevara12:04 PM
+function checkResults()
+
+for(var i = 0; i < questions; i=+)
+
+checkAnswer(index)
+
+checkAnswer(i)
+
+Eric JohnsonEric Johnson12:06 PM
+for loop
+
+display question
+
+display result page
+
+log results
+
+Walter  GuevaraWalter Guevara12:07 PM
+nextQuestion()
+
+Eric JohnsonEric Johnson12:08 PM
+display question[i]
+
+Walter  GuevaraWalter Guevara12:08 PM
+checkAnswer() nextQuestion()
+
+loadQuestion(index)
+
+var questions = new Array()
+
+questions[2]
+
+questionindex++;
+
+Walter  GuevaraWalter Guevara12:13 PM
+var answers = [1, 2, 3 , 2]
+
+var score = 0;
+
+score++;
