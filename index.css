@@ -44,12 +44,39 @@ h2 {
   font-size: 25px;
 }
 
+prompt {
+  display: block;
+  font-size: 25px;
+}
+
 p .final-title {
   /*font-size: 35px;*/
 }
 
 body {
   font-family: 'Fjalla One', sans-serif;
+}
+
+@media screen and (max-width: 360px) {
+  prompt {
+    font-size: 18px;
+  }
+  .start-page {
+    font-size: 15px;
+  }
+  .question, .start-page, .results-page, .end-page {
+    width: 85%;
+  }
+  .results-page h2 {
+    font-size: 30px;
+  }
+  input, button {
+    height: 33.3px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 30px;
+  }
 }
 
 
