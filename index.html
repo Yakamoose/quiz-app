@@ -25,22 +25,18 @@
           <p>Instructions: Read each question and choose your David</p>
           <p><em>May the glam rock gods be with you!</em></p>
 
-          <input class="hover start-button" type="submit" value="Start Quiz">
+          <input class="hover start-button" type="button" value="Start Quiz">
         </form>
       </div>
 
 
       <div class="question-page" style="display: none;" role="form">
+        <p class="question-number"></p>
         <form id="questions-answers">
-          <p class="question-number"></p>
-          <prompt class="question"></prompt>
+          <label class="question"></label>
 
-          <button class="hvr-float-shadow answer bowie-answer">
-            <span class="button-label">BOWIE</span>
-          </button>
-          <button class="hvr-buzz answer byrne-answer">
-            <span  class="button-label">BYRNE</span>
-          </button>
+          <input class="hvr-float-shadow answer bowie-answer button-label" type="button" value="BOWIE" >
+          <input class="hvr-buzz answer byrne-answer button-label" type="button" value="BYRNE">
         </form>
         <div class="score">
           <p class="current-score"></p>
@@ -50,12 +46,13 @@
 
       <div class="results-page" style="display: none;" role="contentinfo">
         <form id="js-continue-quiz">
-          <h2 class="result"></h2>
+          <label class="result"></label>
+
           <div class="score">
-           <p class="current-score">2 of 3 Correct</p>
+           <p class="current-score"></p>
           </div>
 
-          <button class="next-question" type="submit">Continue</button>
+          <input class="next-question" type="submit" value="Continue">
         </form>
       </div>
 
@@ -66,7 +63,7 @@
           <p class="final-score"></p>
           <p class="final-result-message"></p>
 
-          <button class="hover restart-quiz" type="submit">Retake Quiz</button>
+          <input class="hover restart-quiz" type="button" value="Retake Quiz">
         </form>
       </div>
 

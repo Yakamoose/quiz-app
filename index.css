@@ -44,7 +44,7 @@ h2 {
   font-size: 25px;
 }
 
-prompt {
+label {
   display: block;
   font-size: 25px;
 }
@@ -57,8 +57,8 @@ body {
   font-family: 'Fjalla One', sans-serif;
 }
 
-@media screen and (max-width: 360px) {
-  prompt {
+@media screen and (max-width: 450px) {
+  label {
     font-size: 18px;
   }
   .start-page {
@@ -68,14 +68,26 @@ body {
     width: 85%;
   }
   .results-page h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   input, button {
     height: 33.3px;
     width: 100px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 450px) {
+  h1 {
+    font-size: 35px;
+  }
+  label {
+    font-size: 20px;
+  }
+  .question, .start-page, .results-page, .end-page {
+    width: 77%;
   }
 }
 
